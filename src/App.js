@@ -1,12 +1,20 @@
 import React from 'react';
+import BagelsContainer from './Components/BagelsContainer'
+import Form from './Components/Form'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
-  );
-}
+class App extends React.Component {
+  state = {
+    bagels:['bagel 1', 'bagel 2']
+  }
+  render(){
+    return (
+      <>
+          <h1>This is Our Bagels App</h1>
+          <Form/>
+          <BagelsContainer/>
+      </>
+    );
+  };
+};
 
 export default App;
