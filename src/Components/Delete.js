@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 
 
-const Delete = () => {
-    return <button>This is the Delete Button</button>
-}
+// const Delete = () => {
+//     return <button>This is the Delete Button</button>
+// }
     
 
 
-export default Delete
+// export default Delete
